@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body{
+    background-color: #d6cfc7
+}
+.whole-page{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 400px;
+    text-align: center;
+    
+}
+
+.heading {
+    
+    color: #151e3d;
+    font-size: 40px;
+    
+}
+
+hr{
+    color: black;
+    height: 1px;
+}
+
+/* images */
+img{
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    
+}
+
+.img-div{
+    align-items: center;
+}
+
+/* next and previous buttons */
+.buttons{
+    display: flex;
+  
+
+}
