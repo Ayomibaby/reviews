@@ -99,15 +99,15 @@ prevBtn.addEventListener("click", function(){
 
 });
 
-// random button
-// supriseBtn.addEventListener("click", function(){
-    
-//     var random = Math.floor(Math.random()*4);
-//       reviews[random];
-//       showPerson(currentReview);
+// suprise button
+supriseBtn.addEventListener("click", function(){
+    let randomReview= Math.floor(Math.random()*4);
+    reviews[randomReview];
+
+    showPerson(randomReview);
+});
   
-//   });
-  
+
 
 
 
